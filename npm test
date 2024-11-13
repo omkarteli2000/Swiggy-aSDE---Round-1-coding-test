@@ -1,0 +1,16 @@
+
+Design
+
+- The `Player` class defines attributes like health, strength, and attack, and contains methods for attacking, defending, and taking damage.
+- The `Arena` class manages the match, including determining the turn order and checking for the end of the game.
+
+ Example
+
+To simulate a match, create two `Player` objects and pass them to the `Arena` class:
+
+```javascript
+const playerA = new Player(50, 5, 10);
+const playerB = new Player(100, 10, 5);
+
+const arena = new Arena(playerA, playerB);
+arena.startMatch();

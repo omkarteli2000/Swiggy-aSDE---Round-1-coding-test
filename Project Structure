@@ -1,0 +1,11 @@
+magical-arena/
+├── src/
+│   ├── Player.js
+│   ├── Arena.js
+│   └── Game.js
+├── tests/
+│   ├── Player.test.js
+│   ├── Arena.test.js
+│   └── Game.test.js
+├── README.md
+└── package.json
